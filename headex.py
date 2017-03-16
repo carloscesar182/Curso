@@ -4,16 +4,19 @@ from tkinter import *
 
 #  Creates a function to save the written information
 def save_data():
-    fileD = open("deliveries.txt", "a")
-    fileD.write("Depot:\n")
-    fileD.write("%s\n" % depot.get())
-    fileD.write("Description:\n")
-    fileD.write("%s\n" % description.get())
-    fileD.write("Address:\n")
-    fileD.write("%s\n" % address.get("1.0", END))
-    depot.set(None)  # Using 'set(None)' instead '.delete' because the widget radiobutton
-    description.delete(0, END)
-    address.delete("1.0", END)
+    try:  # Creates an exception handler
+        fileD = open("deliveries.txt", "a")
+        fileD.write("Depot:\n")
+        fileD.write("%s\n" % depot.get())
+        fileD.write("Description:\n")
+        fileD.write("%s\n" % description.get())
+        fileD.write("Address:\n")
+        fileD.write("%s\n" % address.get("1.0", END))
+        depot.set(None)  # Using 'set(None)' instead '.delete' because the widget radiobutton or option menu
+        description.delete(0, END)
+        address.delete("1.0", END)
+    except Exception as ex:
+        app.title("Can´t write to the file %s" % ex)  # Display the error message in the window title
 
 
 #  Function to read a file with a list of depots

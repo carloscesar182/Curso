@@ -17,3 +17,12 @@ Address:
 Anytown
 WA
 
+Depot:
+Rio de Janeiro, Brazil
+Description:
+CDs
+Address:
+Rua das Rosas, 278
+Paulo Grandi
+BR
+
