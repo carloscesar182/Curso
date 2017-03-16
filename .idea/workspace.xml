@@ -4,10 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236f08df-d774-4a30-80d8-51763a351027" name="Default" comment="comment´s translation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headex.py" />
+    <list default="true" id="236f08df-d774-4a30-80d8-51763a351027" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gooey.py" afterPath="$PROJECT_DIR$/gooey.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deliveries.txt" afterPath="$PROJECT_DIR$/deliveries.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/headex.py" afterPath="$PROJECT_DIR$/headex.py" />
     </list>
     <ignored path="Curso.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,42 +27,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gooey.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gooey.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#27#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="headex.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/headex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="330">
+              <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coffee_pos.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coffee_pos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transactions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/transactions.py">
+      <file leaf-file-name="deliveries.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deliveries.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -81,6 +57,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="carloscesar182 &lt;carloscesar182@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -421,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489622291044</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="head-ex 1st version">
+      <created>1489626692660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489626692660</updated>
+    </task>
+    <task id="LOCAL-00003" summary="head-ex 1st version">
+      <created>1489627116102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489627116102</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -470,23 +465,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comment´s translation" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment´s translation" />
+    <MESSAGE value="head-ex 1st version" />
+    <option name="LAST_COMMIT_MESSAGE" value="head-ex 1st version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ex2_StarBuzz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex3_SufAThon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -729,22 +715,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gooey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#27#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coffee_pos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="401">
           <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <marker date="1489622132643" expanded="true" signature="171:675" ph="..." />
+            <marker date="1489622132643" expanded="true" signature="415:675" ph="..." />
           </folding>
         </state>
       </provider>
@@ -757,10 +735,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gooey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#27#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deliveries.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/headex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding />
         </state>
       </provider>

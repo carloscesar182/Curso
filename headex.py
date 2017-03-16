@@ -10,7 +10,7 @@ def save_data():
     fileD.write("%s\n" % description.get())
     fileD.write("Address:\n")
     fileD.write("%s\n" % address.get("1.0", END))
-    depot.delete(0, END)
+    depot.set(None)
     description.delete(0, END)
     address.delete("1.0", END)
 
@@ -21,9 +21,20 @@ app.title("Head-Ex Control")
 
 #  Creates and draws the label
 Label(app, text="Depot:").pack()
-#  Creates and draws the text widget
-depot = Entry(app)
-depot.pack()
+#  Creates and draws radio buttons widget
+depot = StringVar()
+depot.set(None)
+Radiobutton(app, text="Cambridge, MA", value="Cambridge, MA", variable=depot).pack()
+Radiobutton(app, text="Cambridge, UK", value="Cambridge, UK", variable=depot).pack()
+Radiobutton(app, text="Seattle, WA", value="Seattle, WA", variable=depot).pack()
+
+"""
+delivery = StringVar()
+delivery.set(None)
+Label(app, text="Delivery Options:").pack()
+Radiobutton(app, text="First Class", value="First Class", variable=delivery).pack()
+Radiobutton(app, text="Next Business Day", value="Next Business Day", variable=delivery).pack()
+"""
 
 Label(app, text="Description:").pack()
 description = Entry(app)
