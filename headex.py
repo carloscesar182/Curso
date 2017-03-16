@@ -1,5 +1,6 @@
 #  Used to import the tkinter standard library
 from tkinter import *
+import tkinter.messagebox
 
 
 #  Creates a function to save the written information
@@ -16,7 +17,7 @@ def save_data():
         description.delete(0, END)
         address.delete("1.0", END)
     except Exception as ex:
-        app.title("Can´t write to the file %s" % ex)  # Display the error message in the window title
+        tkinter.messagebox.showerror("Error!", "Can´t write to the file\n %s" % ex)  # A message box to show errors
 
 
 #  Function to read a file with a list of depots
