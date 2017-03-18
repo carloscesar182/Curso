@@ -1,6 +1,7 @@
 from tkinter import *
 from sound_panel import *
 import pygame.mixer
+import os  # Necessary to 'talk' with your OS
 
 app = Tk()
 app.title('Head First Mixer')
@@ -8,9 +9,12 @@ app.title('Head First Mixer')
 mixer = pygame.mixer
 mixer.init()
 
-# By calling the new function TWICE, you create TWO sets of sound controls on the GUI
-create_gui(app, mixer, "50459_M_RED_Nephlimizer.wav")
-create_gui(app, mixer, "49119_M_RED_HardBouncer.wav")
+dirList = os.listdir(".")
+# It will get the names of everything ended with '.wav' in the directory
+for fname in dirList:  # Takes each of the file names
+    if fname.endswith(".wav"):  # ... and if ends with '.wav' ...
+        # ... it will draw in your GUI
+        panel = SoundPanel(app, mixer, fname).pack()
 
 
 def shutdown():
