@@ -1,6 +1,5 @@
 from tkinter import *
 import pygame.mixer
-from tkinter.messagebox import askokcancel
 
 app = Tk()
 app.title("Head First Mix")
