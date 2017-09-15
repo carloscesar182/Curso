@@ -1,6 +1,7 @@
 #  Used to import the tkinter standard library
 from tkinter import *
 
+
 #  Creates a function to save the written information
 def save_data():
     fileD = open("deliveries.txt", "a")
@@ -14,6 +15,14 @@ def save_data():
     description.delete(0, END)
     address.delete("1.0", END)
 
+
+def read_depots(file):
+    depots = []
+    depots_f = open(file)
+    for line in depots_f:
+        depots.append(line.rstrip())
+    return depots
+
 #  Creates the app
 app = Tk()
 #  Title for the window
@@ -24,17 +33,9 @@ Label(app, text="Depot:").pack()
 #  Creates and draws radio buttons widget
 depot = StringVar()
 depot.set(None)
-Radiobutton(app, text="Cambridge, MA", value="Cambridge, MA", variable=depot).pack()
-Radiobutton(app, text="Cambridge, UK", value="Cambridge, UK", variable=depot).pack()
-Radiobutton(app, text="Seattle, WA", value="Seattle, WA", variable=depot).pack()
 
-"""
-delivery = StringVar()
-delivery.set(None)
-Label(app, text="Delivery Options:").pack()
-Radiobutton(app, text="First Class", value="First Class", variable=delivery).pack()
-Radiobutton(app, text="Next Business Day", value="Next Business Day", variable=delivery).pack()
-"""
+options = read_depots("depots.txt")
+OptionMenu(app, depot, *options).pack()
 
 Label(app, text="Description:").pack()
 description = Entry(app)

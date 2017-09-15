@@ -17,3 +17,25 @@ Address:
 Anytown
 WA
 
+Depot:
+Cambridge, MA
+Description:
+Xurupita
+Address:
+Brazil, 149
+
+Depot:
+Rio de Janeiro, RJ
+Description:
+teste rio
+Address:
+teste rio
+brazil
+
+Depot:
+Seattle, WA
+Description:
+asdfasdf
+Address:
+asdfasdfasdf
+
