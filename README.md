@@ -1,16 +1,16 @@
-# Exercícios de Python
+# Python Exercises
 
-Este repositório reúne exercícios, exemplos e anotações usados durante meus estudos iniciais de Python, com base no livro *Use a Cabeça: Python*.
+This repository contains exercises, examples, and notes from my early Python studies, based on the book *Head First Python*.
 
-## Objetivo
+## Goals
 
-- Praticar fundamentos da linguagem
-- Consolidar conceitos básicos
-- Registrar exercícios e experimentos
-- Aprender a usar Git e GitHub
+- Practice Python fundamentals
+- Reinforce basic concepts
+- Keep a record of exercises and experiments
+- Learn to use Git and GitHub
 
-## Conteúdo
+## Contents
 
-Os arquivos incluem exemplos de listas, funções, classes, módulos, estruturas de controle e pequenos exercícios do curso.
+The files include examples of lists, functions, classes, modules, control flow, and small course exercises.
 
-Este repositório representa material de estudo e evolução de aprendizagem. Os projetos mais recentes e completos estão fixados no meu perfil.
+This repository documents my learning journey. My more recent and complete projects are pinned on my profile.
